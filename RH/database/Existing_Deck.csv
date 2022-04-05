@@ -1,0 +1,12 @@
+deck_name,thickness,fastener_spacing,fastener_diameter,fastener_shear_strength
+PBR 22 gauge,0.0295,3,0.212,2.5
+PBR 24 gauge,0.0239,3,0.212,2.5
+PBR 26 gauge,0.0179,3,0.212,2.5
+M panel 22 gauge,0.0295,3,0.212,2.5
+M panel 24 gauge,0.0239,3,0.212,2.5
+M panel 26 gauge,0.0179,3,0.212,2.5
+Vertical Rib SS 22 gauge,0.0295,3,0.212,2.5
+Vertical Rib SS 24 gauge,0.0239,3,0.212,2.5
+Vertical Rib SS 26 gauge,0.0179,3,0.212,2.5
+Trapezoidal SS 22 gauge,0.0295,3,0.212,2.5
+Trapezoidal SS 24 gauge,0.0239,3,0.212,2.5
