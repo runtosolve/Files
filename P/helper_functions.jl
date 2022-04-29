@@ -109,7 +109,7 @@ end
 
 
 
-function calculate_Mcrd(coords)
+function calculate_Mcrd(coords, b, d, h, t)
 
     CorZ = 0
     bc = b
