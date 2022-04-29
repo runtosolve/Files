@@ -79,7 +79,7 @@ function calculate_net_section_properties(xy_coords)
 end
 
 
-function calculate_Mcrℓ(coords, h)
+function calculate_Mcrℓ(coords, h, t)
 
     E = 29500.0
     ν = 0.30
