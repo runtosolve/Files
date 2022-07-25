@@ -17,6 +17,7 @@ end
 # ╔═╡ f9d65a36-1708-4a60-b91d-c23fdef2788b
 begin
 	import Pkg
+	Pkg.activate(; temp=true)
 	Pkg.add(url="https://github.com/runtosolve/CUFSM.jl.git")
 	Pkg.add(url="https://github.com/runtosolve/Geometry.jl.git")
 	Pkg.add(url="https://github.com/runtosolve/InternalForces.jl.git")
@@ -28,8 +29,11 @@ begin
 	Pkg.add(url="https://github.com/runtosolve/PurlinLine.jl.git")
 	Pkg.add(url="https://github.com/runtosolve/TopHatDesigner.jl.git")
 	Pkg.add("ImageMagick")
-	
-	Pkg.activate(".")
+	Pkg.add("Images")
+	Pkg.add("PlutoUI")
+	Pkg.add("CSV")
+	Pkg.add("UrlDownload")
+	Pkg.add("DataFrames")
 	Pkg.instantiate()
 
 
